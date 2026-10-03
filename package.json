@@ -1,0 +1,17 @@
+{
+  "name": "technova-electronics-platform",
+  "version": "1.0.0",
+  "description": "TECHNOVA — Production-Quality Electronics E-Commerce Platform",
+  "private": true,
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend start",
+    "server:dev": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test-api": "npm --prefix backend run test-api"
+  }
+}
